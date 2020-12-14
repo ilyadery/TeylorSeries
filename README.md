@@ -4,7 +4,9 @@ Z1=cos a+sin a+cos 3a+sin 3a
 Z2=2sin a
 
 Код:
- double a, b, c, d;
+
+    double a, b, c, d;
+ 
             if (textBox1.Text == "")
             {
                 textBox2.Text = "Не все данные введены";
@@ -69,7 +71,8 @@ Z2=2sin a
 3.Вычислить и вывести на экран в виде таблицы значения функции, заданой с помощью ряда Тейлора.
 
 Код:
- double num = double.Parse(this.textBox7.Text);
+
+            double num = double.Parse(this.textBox7.Text);           
             double num2 = double.Parse(this.textBox8.Text);
             double num3 = double.Parse(this.textBox9.Text);
             double num4 = double.Parse(this.textBox10.Text);
