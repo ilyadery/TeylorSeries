@@ -69,7 +69,7 @@ Z2=2sin a
 3.Вычислить и вывести на экран в виде таблицы значения функции, заданой с помощью ряда Тейлора.
 
 Код:
-double num = double.Parse(this.textBox7.Text);
+ double num = double.Parse(this.textBox7.Text);
             double num2 = double.Parse(this.textBox8.Text);
             double num3 = double.Parse(this.textBox9.Text);
             double num4 = double.Parse(this.textBox10.Text);
@@ -96,3 +96,4 @@ double num = double.Parse(this.textBox7.Text);
                     num8,
                     "\t|"
                 }));
+            }
